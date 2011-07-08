@@ -8,8 +8,6 @@ app.use(express.static(__dirname + '/public'));
 
 //setup the spider and include all routes on startup
 var spider = new Spider();
-require('./4chan.js').mount(spider);
-require('./kodie.js').mount(spider);
 require('./500px.js').mount(spider);
 app.post('/', function(req, res){
 
