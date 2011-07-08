@@ -1,0 +1,13 @@
+This is Node.JS based manual web scraper. I've included a file that works with 500px.com. To run:
+
+> node app.js
+
+Then open http://localhost/drag.html, move it into a small window that you can drag onto from another browser window.
+
+Goto http://500px.com/popular
+
+Drag a thumbnail onto the drag window.
+
+A folder should get created with the photographers username, the image will be inside.
+
+More later. 
