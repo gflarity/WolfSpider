@@ -40,7 +40,7 @@ var download = function download( link, filepath ) {
 };
   
 exports.mount = function( spider, outdir ) {
-
+  
   if ( outdir ) {
     OUTDIR = outdir;
   }
